@@ -1,0 +1,5 @@
+A grasshopper is an insect that has wings and a grasshopper generally likes to eat human food when it can.
+#sed 's/fly/grasshopper/g' sedtest.txt
+# sed is a  replacement file the above command tells the system to substitute 
+#'fly' for 'grasshopper' wherever it is found in g 'globally', throughout the file
+#vim sedtest.txt.ORIGINAL

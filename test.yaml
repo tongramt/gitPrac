@@ -1,0 +1,35 @@
+team: 76ers #add comments on same line as code with hashes. NB need to have space after hash to record value
+city: Philadelphia
+year_founded: 1946
+is_current_champion: false
+background: >  #Yaml multiline string is indicated using '>'.
+  Founded in 1946, the Philadelphia 76ers are a professional basketball team based in 
+  Philadelphia, Pennsylvania. They are part of the Atlantic Division in the Eastern Conference of the NBA. 
+  The team has a rich history and has won three NBA championships, with their most recent title coming in 1983. 
+  The 76ers play their home games at the Wells Fargo Center and have a passionate fan base 
+  who areknown for their loyalty and enthusiasm.
+
+organisation: | #Yaml multiline string is indicated using '|' if you want to preserve line breaks.
+  The Philadelphia 76ers are owned by Josh Harris and David Blitzer, who purchased the team in 2011. 
+  The team's general manager is Elton Brand, a former player who has been with the organization since 2018. 
+  The head coach is Doc Rivers, a veteran coach with a successful track record in the NBA.
+  The Philadelphia 76ers are owned by Josh Harris and David Blitzer, who purchased the team in 2011. 
+  The team's management includes General Manager Elton Brand and Head Coach Doc Rivers. 
+  The 76ers are known for their commitment to building a competitive team and have been active in the NBA draft 
+  and free agency to improve their roster.
+
+famous_players: #Lists of values can be created using a hyphen '-'followed by a space.
+  - name: Allen Iverson #List of famous players with their names
+    position: Guard
+    years_active: 1996-2010
+    achievements: 
+      - NBA Most Valuable Player (2001)
+      - 11× NBA All-Star
+      - 2× NBA scoring champion
+  - name: Julius Erving 
+    position: Forward
+    years_active: 1971-1987
+    achievements:
+      - 2× NBA champion
+      - 3× ABA champion
+      - NBA Most Valuable Player (1981)
